@@ -30,4 +30,13 @@ div.index-contacto__titulo{
     width: 150px;
 }
 
+@media only screen and (max-width:767px){
+    
 
+    iframe.map{
+        justify-content: center;
+        padding: 10px;
+        margin-left: -20px;
+    }
+    
+    }
