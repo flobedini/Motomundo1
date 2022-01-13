@@ -1,6 +1,12 @@
 
 @import "./Variables";
 
+h2.text--contact{
+    font-family: $font2;
+    font-size: $size6;
+    margin-left: 40px;
+}
+
 section.contact{
     background-image: url(../Assets/contactimg.png);
     margin-top: 76px;

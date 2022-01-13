@@ -88,6 +88,11 @@ a.img--main{
 
 /* Comentarios clientes */
 
+h2.comentarios__clientes{
+    font-family: $font2;
+    font-style: bold;
+}
+
 .index-reviews {
     
     margin: 1rem;
@@ -99,6 +104,8 @@ a.img--main{
     h2 {
         padding: 2rem;
     }
+
+    
 
 
 
@@ -114,11 +121,11 @@ a.img--main{
             box-shadow: $color3 0px 0px 0px 2px, $color3 0px 4px 6px -1px, $color3 0px 1px 0px inset;
         }
 
-
+        
 
         h2.cliente {
             color: $color3;
-            font-size: 1.8rem;
+            font-size: $size6;
             line-height: 1;
             letter-spacing: .1rem;
             margin: 2rem 0;
@@ -176,5 +183,16 @@ a.img--main{
         background-size: cover;
         background-position: center;
         box-shadow: 0 4px 8px 0 $shadow2;
+    }
+
+
+    h2.comentarios__clientes{
+        font-size: $size5;
+        margin-top: 100px;
+    }
+
+    h2.cliente{
+        font-size: $size4;
+        text-align: center;
     }
 }

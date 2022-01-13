@@ -5,7 +5,9 @@
 /* Import pages */
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
 /* Variables inicio */
 /* Fuentes */
 /*paleta de colores*/
@@ -15,7 +17,9 @@
 /* Variables fin */
 /* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
 /* Variables inicio */
 /* Fuentes */
 /*paleta de colores*/
@@ -24,9 +28,19 @@
 /*tamaños*/
 /* Variables fin */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap");
+h2.text--contact {
+  font-family: "Orbitron", sans-serif;
+  font-size: 24px;
+  margin-left: 40px;
+}
+
 section.contact {
   background-image: url(../Assets/contactimg.png);
   margin-top: 76px;
@@ -63,6 +77,7 @@ div.index-contacto__titulo {
 }
 /* Import fonts */
 /* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
 /* Variables inicio */
 /* Fuentes */
 /*paleta de colores*/
@@ -119,6 +134,7 @@ div.container--menu {
 
 /* Import fonts */
 /* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
 /* Variables inicio */
 /* Fuentes */
 /*paleta de colores*/
@@ -126,6 +142,10 @@ div.container--menu {
 /*bordes*/
 /*tamaños*/
 /* Variables fin */
+h2.nosotros--title {
+  font-family: "Orbitron", sans-serif;
+}
+
 section.sobre--nosotros {
   margin-top: 100px;
   width: 100%;
@@ -152,6 +172,7 @@ p.texto__bold {
 
 /* Import fonts */
 /* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
 /* Variables inicio */
 /* Fuentes */
 /*paleta de colores*/
@@ -264,7 +285,7 @@ img.proms {
 h2.forma--pago__titulo {
   font-size: 24px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 section.forma--pago {
@@ -290,6 +311,7 @@ img.pays {
 
 /* Import fonts */
 /* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Orbitron', sans-serif; */
 /* Variables inicio */
 /* Fuentes */
 /*paleta de colores*/
@@ -383,6 +405,11 @@ a.img--main {
 }
 
 /* Comentarios clientes */
+h2.comentarios__clientes {
+  font-family: "Orbitron", sans-serif;
+  font-style: bold;
+}
+
 .index-reviews {
   margin: 1rem;
   margin-top: -5rem;
@@ -403,7 +430,7 @@ a.img--main {
 }
 .index-reviews .index-reviews__card h2.cliente {
   color: #0103f6;
-  font-size: 1.8rem;
+  font-size: 24px;
   line-height: 1;
   letter-spacing: 0.1rem;
   margin: 2rem 0;
@@ -443,6 +470,16 @@ a.img--main {
     background-size: cover;
     background-position: center;
     box-shadow: 0 4px 8px 0 rgba(151, 151, 151, 0.329);
+  }
+
+  h2.comentarios__clientes {
+    font-size: 20px;
+    margin-top: 100px;
+  }
+
+  h2.cliente {
+    font-size: 18px;
+    text-align: center;
   }
 }
 * {
