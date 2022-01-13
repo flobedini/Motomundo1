@@ -139,11 +139,15 @@ div.section--nosotros {
 div.nosotros__texto {
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 img.img-fluid {
   border-radius: 8px;
+}
+
+p.texto__bold {
+  font-weight: bold;
 }
 
 /* Import fonts */
